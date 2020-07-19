@@ -34,7 +34,7 @@
 }
 
 body {
-    background-color:;
+    background-color:#eaeaea;
     margin: 0;
     color: #34495e;
 }
@@ -555,7 +555,7 @@ header .go-back i {
 }
 
 /* 背景图效果. */
-.bg-cover {
+/.bg-cover {
     position: relative;
     display: flex;
     align-items: center;
@@ -566,7 +566,7 @@ header .go-back i {
     background-position: center center;
     background-size: cover;
     transform: translate3d(0px, 0px, 0px);
-}
+}/
 
 .index-cover {
     height: 100vh;
