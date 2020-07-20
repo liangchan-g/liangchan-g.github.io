@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>开天辟地的大事</title>
+      <link href="/2020/07/20/%E5%BC%80%E5%A4%A9%E8%BE%9F%E5%9C%B0%E7%9A%84%E5%A4%A7%E4%BA%8B/"/>
+      <url>/2020/07/20/%E5%BC%80%E5%A4%A9%E8%BE%9F%E5%9C%B0%E7%9A%84%E5%A4%A7%E4%BA%8B/</url>
+      
+        <content type="html"><![CDATA[<h1 id="搭建此blog的过程"><a href="#搭建此blog的过程" class="headerlink" title="搭建此blog的过程"></a>搭建此blog的过程</h1><p>&#8195;&#8195;几天前，看见了<del>某位同学</del>搭建的博客，心生羡慕，也想拥有自己的blog。于是各种上网搜教程，机缘巧合下，在bilibili找到<a href="https://www.bilibili.com/video/BV1je41147Ma" target="_blank" rel="noopener">BV1je41147Ma</a>（用hxeo搭建的，对我这种小白很友好），根据这个视频，在经历了多次失败后，终于成功的把框架做了出来。</p><h2 id="总结下我在用hexo搭建时遇到的问题"><a href="#总结下我在用hexo搭建时遇到的问题" class="headerlink" title="总结下我在用hexo搭建时遇到的问题"></a>总结下我在用hexo搭建时遇到的问题</h2><ul><li><p><strong>npm <font color=red>ERR!</font> <font color=DarkOrchid>errno -4048</strong></font></p><p>不论是我运行<strong>install</strong>文件，还是下载<strong>淘宝镜像npm</strong>的时候，不论我使用<strong>cmd</strong>还是<strong>Git Bash</strong>执行npm的命令时，都会冒出一大堆<font color=red>ERR!</FONT>提示我命令出错。尝试重装<strong>Git</strong>和<strong>npm</strong>也都失败，最后在一篇文章里找到了<strong>删除npmrc文件</strong>的解决方法，删除后命令运行变为正常。</p></li><li><p>执行 <strong>hexo clean</strong> 命令后，不知道怎么操作失误，网站页面变成空白页。<br>这个我在网上搜过解决办法，好像此问题无解，知乎上还有写建议弃坑的（<del>认真的吗</del>），只好把本地文件夹删除，从头开始。（<strong>从此以后我明白了备份的重要性</strong>）</p></li><li><p>hexo-theme-matery-master主题里变来变去的背景颜色，可以通过修改 <strong>_config文件</strong> 里面的 <strong>.bg-color</strong> 和 <strong>@-rainbow（两个)</strong> 代码就可以，不需要背景颜色的话直接全部注释掉就可以。</p></li><li><p>网页汉字乱码<br>修改代码的时候要用特定的程序。<br>一开始我修改代码的时候用的 <strong>keil u4</strong> ，上传后发现网站汉字乱码，改用记事本依然乱码，最后用从网上找的<strong>Sublime Text</strong> ，改完代码后用程序里的 <strong>用此编码保存</strong>–<strong>UTF-8</strong>保存后再上传就可以解决了。</p></li></ul><p>&#8195;&#8195;总之我到目前为止还算顺利，今后也会继续美化、完善这个网站，在我觉得它值得展现给别人后，我就去申请个国内域名，租个服务器。<br>&#8195;&#8195;希望这个网站能陪我走下去，有个个人的博客也是种有趣的体验。我以后也会分享一些单片机等编程的技术问题、我自己的学习过程和笔记、对一些作品的感悟等等。<br>&#8195;&#8195;想跟我建立友链的、给我指出问题的可以<a href="1447181321">QQ联系我~</a></p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> web </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Hello World</title>
       <link href="/2020/07/19/hello-world/"/>
       <url>/2020/07/19/hello-world/</url>
