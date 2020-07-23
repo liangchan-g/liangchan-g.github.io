@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>关于hexo-theme-matery-master主题的一些设置</title>
+      <link href="/2020/07/23/%E5%85%B3%E4%BA%8Ehexo-theme-matery-master%E4%B8%BB%E9%A2%98%E7%9A%84%E4%B8%AA%E6%80%A7%E8%AE%BE%E7%BD%AE/"/>
+      <url>/2020/07/23/%E5%85%B3%E4%BA%8Ehexo-theme-matery-master%E4%B8%BB%E9%A2%98%E7%9A%84%E4%B8%AA%E6%80%A7%E8%AE%BE%E7%BD%AE/</url>
+      
+        <content type="html"><![CDATA[<h1 id="关于-hexo-theme-matery-master-主题的一些设置"><a href="#关于-hexo-theme-matery-master-主题的一些设置" class="headerlink" title="关于 hexo-theme-matery-master 主题的一些设置"></a>关于 hexo-theme-matery-master 主题的一些设置</h1><p>绝大部分的设置在<a href="https://github.com/blinkfox/hexo-theme-matery/blob/develop/README_CN.md" target="_blank" rel="noopener">hexo-theme-matery</a>里面写的很清楚了，这里简单记录下一些小细节。</p><hr><ul><li><h2 id="友情链接的添加"><a href="#友情链接的添加" class="headerlink" title="友情链接的添加"></a>友情链接的添加</h2>&emsp;&emsp;在博客的本地文件夹里（不是主题的文件夹），在<strong>source</strong>文件夹里新建 <strong>friends.json</strong> 文件（可以新建txt文件后改后缀名），然后输入需要添加的友情链接代码，格式类似于以下代码：<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">[&#123;</span><br><span class="line">    &quot;avatar&quot;: &quot; &quot;,  # 这里添加友链头像的网址</span><br><span class="line">    &quot;name&quot;: &quot; &quot;,    # 友链博客的名字</span><br><span class="line">    &quot;introduction&quot;: &quot; &quot;, # 友链博客的介绍</span><br><span class="line">    &quot;url&quot;: &quot; &quot;,     # 友链的网址</span><br><span class="line">    &quot;title&quot;: &quot; &quot;    # 链接按钮的标题</span><br><span class="line">&#125;, &#123;</span><br><span class="line">&quot;avatar&quot;: &quot; &quot;,</span><br><span class="line">&quot;name&quot;: &quot; &quot;,</span><br><span class="line">&quot;introduction&quot;: &quot; &quot;,</span><br><span class="line">&quot;url&quot;: &quot; &quot;,</span><br><span class="line">&quot;title&quot;: &quot; &quot;</span><br><span class="line">&#125;]</span><br></pre></td></tr></table></figure>注意事项：   <ol><li>要先在主题里添加<strong>友情链接</strong>页，在<a href="https://github.com/blinkfox/hexo-theme-matery/blob/develop/README_CN.md" target="_blank" rel="noopener">hexo-theme-matery</a>里面详细的介绍。</li><li>如果上传后没有显示的话，有可能是上传的时候没有用<strong>UTF-8</strong>编码（<del>我就出了这个错误</del>）</li></ol></li></ul><ul><li><h2 id="文章的标签和分类"><a href="#文章的标签和分类" class="headerlink" title="文章的标签和分类"></a>文章的标签和分类</h2><p>&emsp;&emsp;文章的标签和分类直接在文章里建立和修改就可以。在需要上传的文章开头的以下文字中：  </p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">title: </span><br><span class="line">date: </span><br><span class="line">tags: </span><br><span class="line">categories: </span><br><span class="line">---</span><br></pre></td></tr></table></figure><p>&emsp;&emsp;<strong>tags</strong>是文章的标签，<strong>categories</strong>是文章的分类，如果没有的话添加上就可以。</p><p>&emsp;&emsp;新建<strong>tags</strong>页和<strong>categories</strong>页在<a href="https://github.com/blinkfox/hexo-theme-matery/blob/develop/README_CN.md" target="_blank" rel="noopener">hexo-theme-matery</a>里面有。</p><ul><li><h2 id="评论系统"><a href="#评论系统" class="headerlink" title="评论系统"></a>评论系统</h2>留言板也是依赖于评论系统上的，要激活留言板必须先激活第三方评论系统。<br>这里我激活的是Valine评论系统。<br>如何激活评论系统和留言板可以看这篇文章：<a href="https://blog.csdn.net/qq_43827595/article/details/104324443" target="_blank" rel="noopener">hexo博客matery主题个性化配置</a></li></ul></li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 本博客的建立、运行 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> blog </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>开天辟地的大事</title>
       <link href="/2020/07/20/%E5%BC%80%E5%A4%A9%E8%BE%9F%E5%9C%B0%E7%9A%84%E5%A4%A7%E4%BA%8B/"/>
       <url>/2020/07/20/%E5%BC%80%E5%A4%A9%E8%BE%9F%E5%9C%B0%E7%9A%84%E5%A4%A7%E4%BA%8B/</url>
